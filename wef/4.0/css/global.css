@@ -182,7 +182,7 @@ button {
   border-radius: 2.1rem 0 0 2.1rem;
   color: #414042 !important;
   font-size: 1rem;
-  border: 0.1rem solid #414042 !important;
+  border: 0.1rem solid #414042 !important;  
   /* flex para alinhar conteúdo*/
   display: flex;
   justify-content: center;
@@ -196,7 +196,7 @@ button {
 
 .button-tipo-passagem-dir {
   float:left;
-  height: 36px;
+  height: 36px;  
   border-radius: 0 2.1rem 2.1rem 0;
   color: #414042 !important;
   font-size: 1rem;
@@ -283,7 +283,7 @@ button {
   }
 
   .data-lado-a-lado {
-    width: 43%;
+    width: 30%;
   }
 
   .container h3 {
