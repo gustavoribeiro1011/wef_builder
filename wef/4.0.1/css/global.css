@@ -278,7 +278,9 @@ button {
     margin:10px !important;
 
   }
-
+.form-sucesso{
+  margin-top: 40% !important;
+}
   .banner {
     margin-top: 0;
   }
@@ -364,7 +366,7 @@ button {
 }
 
 .form-sucesso {
-  margin: auto;
+  margin-top: auto;
   background: #F4F4F4 !important;
   padding: 20px;
   color: #FFF;
