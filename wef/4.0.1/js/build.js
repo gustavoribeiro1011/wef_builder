@@ -1619,7 +1619,7 @@
          $(".logo").remove();
          $("body").css("background", "#F4F4F4");
          //mostra
-         $(".form-sucesso").css("display", "block", "box-shadow", "", "-moz-box-shadow", "", "-webkit-box-shadow", "");
+         $(".form-sucesso").css("display", "block",);
  
  
  

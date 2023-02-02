@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #212529;
   background-color: rgb(235, 235, 235);
   padding-top: 260px;
@@ -9,7 +9,7 @@ body {
   text-rendering: optimizeLegibility !important;
 }
 
-.xIOs{
+.xIOs {
   justify-content: left;
   align-items: left;
 }
@@ -33,7 +33,7 @@ input[type="radio"] {
 
 /* appearance for checked radiobutton */
 input[type="radio"]:checked {
-  background-color: #77A4D2;
+  background-color: #77a4d2;
 }
 
 /*---------------------
@@ -83,7 +83,6 @@ input[type="radio"]:checked {
   margin-left: 6px;
 }
 
-
 /*----------------------------------------------------------------
    * Custom 
    * ---------------------------------------------------------------
@@ -104,11 +103,10 @@ input[name="radio_tipo_viagem"] {
   font-size: 1.2rem;
   margin-bottom: 10px;
   font-weight: 800;
-
 }
 
-.msg-validation{
-   color:#F05929;
+.msg-validation {
+  color: #f05929;
 }
 
 /* ----------------------
@@ -119,7 +117,7 @@ input[name="radio_tipo_viagem"] {
 button {
   font-size: 1.4rem;
   background-color: #fff;
-  border: 0;  
+  border: 0;
   color: #000;
   border-radius: 4px;
   line-height: 50px;
@@ -129,7 +127,7 @@ button {
 
 /*Buscar Cotação, Próximo, Voltar*/
 .button-control {
-  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+  background-image: linear-gradient(to right, #77a1d3 0%, #79cbca 51%, #77a1d3 100%);
   margin: 0;
   padding: 0px 12px;
   text-align: center;
@@ -140,7 +138,7 @@ button {
   color: white;
   display: block;
   border-radius: 15px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
 
 .button-control:hover {
@@ -150,9 +148,8 @@ button {
   text-decoration: none;
 }
 
-
 .button-control-success {
-  background-image: linear-gradient(to right, #76b852 0%, #8DC26F 51%, #76b852 100%);
+  background-image: linear-gradient(to right, #76b852 0%, #8dc26f 51%, #76b852 100%);
   margin: 0;
   padding: 0px 12px;
   text-align: center;
@@ -164,7 +161,7 @@ button {
   box-shadow: 0 0 20px #eee;
   display: block;
   border-radius: 15px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   font-weight: 700;
 }
 
@@ -176,12 +173,12 @@ button {
 }
 
 .button-tipo-passagem-esq {
-  float:left;
+  float: left;
   height: 36px;
   border-radius: 2.1rem 0 0 2.1rem;
   color: #414042 !important;
   font-size: 1rem;
-  border: 0.1rem solid #414042 !important;  
+  border: 0.1rem solid #414042 !important;
   line-height: 25px !important;
   padding: 2px 25px 2px 25px;
   /* flex para alinhar conteúdo*/
@@ -191,20 +188,20 @@ button {
 }
 
 .button-tipo-passagem-esq:hover {
-  color: #77A4D2 !important;
-  border: 0.1rem solid #77A4D2 !important;
+  color: #77a4d2 !important;
+  border: 0.1rem solid #77a4d2 !important;
 }
 
 .button-tipo-passagem-dir {
-  float:left;
-  height: 36px;  
+  float: left;
+  height: 36px;
   border-radius: 0 2.1rem 2.1rem 0;
   padding: 2px 25px 2px 25px;
   color: #414042 !important;
   font-size: 1rem;
   border: 0.1rem solid #414042 !important;
   line-height: 25px !important;
-  margin-left:-1px;
+  margin-left: -1px;
   /* flex para alinhar conteúdo*/
   display: flex;
   justify-content: center;
@@ -212,18 +209,16 @@ button {
 }
 
 .button-tipo-passagem-dir:hover {
-  color: #77A4D2 !important;
-  border: 0.1rem solid #77A4D2 !important;
+  color: #77a4d2 !important;
+  border: 0.1rem solid #77a4d2 !important;
 }
 
 .button-tipo-passagem-active {
   position: relative;
   background-color: rgba(41, 44, 240, 0.1);
-  border: 0.1rem solid #77A4D2 !important;
-  color: #77A4D2 !important;
+  border: 0.1rem solid #77a4d2 !important;
+  color: #77a4d2 !important;
 }
-
-
 
 .container {
   display: inline-block;
@@ -240,16 +235,12 @@ button {
   color: #000;
 }
 
-
-
 @media (max-width: 767px) {
-
-  .xIOs{
+  .xIOs {
     justify-content: center;
     align-items: center;
   }
 
-  
   .logo {
     position: relative;
     padding: 0;
@@ -263,7 +254,7 @@ button {
   #title_form {
     font-size: 1rem;
     font-weight: 800;
-    margin-bottom:2px;
+    margin-bottom: 2px;
   }
 
   body {
@@ -273,14 +264,13 @@ button {
   }
 
   .formulario {
-
     padding: 15px !important;
-    margin:10px !important;
-
+    margin: 10px !important;
   }
-.form-sucesso{
-  margin-top: 40% !important;
-}
+  .form-sucesso{
+    padding-top:52% !important;
+  }
+
   .banner {
     margin-top: 0;
   }
@@ -291,7 +281,7 @@ button {
 
   .data-lado-a-lado {
     width: 50% !important;
-    padding:14px;
+    padding: 14px;
   }
 
   .container h3 {
@@ -304,48 +294,46 @@ button {
   }
 
   /*Buscar Cotação, Próximo, Voltar*/
-.button-control {
- 
-  margin: 0;
-  padding: 0px 12px;
-   font-size: 0.8rem;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  display: block;
-  border-radius: 15px;
-  border: 1px solid #FFF;
-}
-.button-control-success {
-   margin: 0;
-  padding: 0px 12px;
-   font-size: 0.8rem;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  display: block;
-  border-radius: 15px;
-  border: 1px solid #FFF;
-}
+  .button-control {
+    margin: 0;
+    padding: 0px 12px;
+    font-size: 0.8rem;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    display: block;
+    border-radius: 15px;
+    border: 1px solid #fff;
+  }
+  .button-control-success {
+    margin: 0;
+    padding: 0px 12px;
+    font-size: 0.8rem;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    display: block;
+    border-radius: 15px;
+    border: 1px solid #fff;
+  }
   .button-tipo-passagem-esq {
     font-size: 14px;
   }
-  
+
   .button-tipo-passagem-dir {
     font-size: 14px;
   }
-  #button-buscar-cotacao{
+  #button-buscar-cotacao {
     display: block !important;
-    width:100% !important;
+    width: 100% !important;
   }
-  .btn-block{
+  .btn-block {
     display: block !important;
-    width:100% !important;
+    width: 100% !important;
   }
-  .msg-validation{
-    font-size:11px;    
+  .msg-validation {
+    font-size: 11px;
   }
-
 }
 
 .fab {
@@ -355,7 +343,7 @@ button {
 
 .formulario {
   margin: auto;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 20px;
   color: #414042;
   max-width: 1000px;
@@ -367,9 +355,9 @@ button {
 
 .form-sucesso {
   margin-top: auto;
-  background: #F4F4F4 !important;
+  background: #f4f4f4 !important;
   padding: 20px;
-  color: #FFF;
+  color: #fff;
   max-width: 700px;
   padding: 32px;
   font-size: 1rem;
@@ -379,7 +367,6 @@ button {
 .data-lado-a-lado {
   width: 30%;
   padding-right: 20px;
-  
 }
 
 input[type="number"],
@@ -396,7 +383,7 @@ textarea {
   box-sizing: border-box;
   padding: 8px;
   font-size: 1rem;
-  border: 1px solid #ECEDF1;
+  border: 1px solid #ecedf1;
   border-radius: 6px;
   color: #414042;
   text-align: left;
@@ -455,8 +442,6 @@ input[type="submit"]:hover {
 img {
   vertical-align: middle;
 }
-
-
 
 #submit {
   font-size: 1rem;
