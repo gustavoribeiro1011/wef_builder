@@ -937,7 +937,7 @@
  // Logo
  
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ if( screen.width <= 800 ) {
         // some code..
     
         
@@ -947,7 +947,7 @@
             $("body").css("padding-top", "10px");
         }
 
-        console.log("mobile");
+        console.log("mobile -800px");
     
        } else {
         console.log("desktop");
