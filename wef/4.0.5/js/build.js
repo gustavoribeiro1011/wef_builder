@@ -943,7 +943,7 @@
         
         if (logo == "true") {
 
-            if ( (logo_mobile).length > 0 ){
+            if ( logo_mobile.length > 0 ){
                 $(".logo").html('<img src="' + logo_url_mobile + '" alt="Formulario WhatsApp EasyForm" width="700px">');
             } else {
                 $(".logo").html('<img src="' + logo_url + '" alt="Formulario WhatsApp EasyForm" width="700px">');
