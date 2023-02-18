@@ -936,10 +936,11 @@
  
  // Logo
  
+console.log("execute rule");
 
  if( screen.width <= 800 ) {
         // some code..
-    
+        console.log("mobile -800px");
         
         if (logo == "true") {
             $(".logo").html('<img src="' + logo_url + '" alt="Formulario WhatsApp EasyForm" width="700px">');
@@ -947,7 +948,7 @@
             $("body").css("padding-top", "10px");
         }
 
-        console.log("mobile -800px");
+        
     
        } else {
         console.log("desktop");
