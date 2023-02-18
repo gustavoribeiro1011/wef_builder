@@ -946,8 +946,12 @@
         } else {
             $("body").css("padding-top", "10px");
         }
+
+        console.log("mobile");
     
        } else {
+        console.log("desktop");
+
         if (logo == "true") {
             $(".logo").html('<img src="' + logo_url + '" alt="Formulario WhatsApp EasyForm" width="1000px">');
         } else {
