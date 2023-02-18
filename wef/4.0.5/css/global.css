@@ -236,6 +236,9 @@ button {
 }
 
 @media (max-width: 767px) {
+
+
+
   .xIOs {
     justify-content: center;
     align-items: center;

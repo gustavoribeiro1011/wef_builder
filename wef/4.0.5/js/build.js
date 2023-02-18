@@ -936,23 +936,23 @@
  
  // Logo
  
-console.log("execute rule");
 
- if( screen.width <= 800 ) {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // some code..
-        console.log("mobile -800px");
+    
         
         if (logo == "true") {
-            $(".logo").html('<img src="' + logo_url + '" alt="Formulario WhatsApp EasyForm" width="700px">');
+
+            if ( (logo_mobile).length > 0 ){
+                $(".logo").html('<img src="' + logo_url_mobile + '" alt="Formulario WhatsApp EasyForm" width="700px">');
+            } else {
+                $(".logo").html('<img src="' + logo_url + '" alt="Formulario WhatsApp EasyForm" width="700px">');
+            }
         } else {
             $("body").css("padding-top", "10px");
         }
-
-        
     
        } else {
-        console.log("desktop");
-
         if (logo == "true") {
             $(".logo").html('<img src="' + logo_url + '" alt="Formulario WhatsApp EasyForm" width="1000px">');
         } else {
