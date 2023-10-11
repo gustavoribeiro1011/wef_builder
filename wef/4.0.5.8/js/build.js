@@ -1588,11 +1588,11 @@ function Submit() {
 
             if (id == "bagagem") {
                 if (messages[i].value == "Quero bagagem de 23Kg") {
-                    var bagagem = "S";
-                    messageHtml += messages[i].label + messages[i].value;                    
+                    var bagagem = "Apenas bagagem de 10kg\n";
+                    messageHtml += messages[i].label + bagagem;                    
                 } else {
-                    var bagagem = "N";
-                    messageHtml += messages[i].label + messages[i].value;                 
+                    var bagagem = "Não preciso de bagagem\n";
+                    messageHtml += messages[i].label + bagagem;                 
                 }
             } else 
 
