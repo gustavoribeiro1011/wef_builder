@@ -1575,11 +1575,11 @@ function Submit() {
             if (id == "tipo_viagem") {
                 var tipo_viagem = messages[i].value;
             } else
-
+            
             if (id == "nome") {
                 var nome = messages[i].value;
             } else
-
+            
             if (id == "tipo_passagem") {
                 var tipo_passagem = messages[i].value;
             } else 
@@ -1601,33 +1601,25 @@ function Submit() {
             if (id == "adultos") {
                 var adultos = messages[i].value;
             } else 
-
             if (id == "criancas_1") {
                 var criancas_1 = messages[i].value;
             } else
-
             if (id == "criancas_2") {
                 var criancas_2 = messages[i].value;
             } else
-            
             if (id == "origem") {
                 var origem = messages[i].value;
             } else 
-
             if (id == "destino") {
                 var destino = messages[i].value;
             } else 
-
             if (id == "indicacao") {
                 var indicacao = messages[i].value;
             } else 
-
             if (id == "flexibilidade_datas") {
                 var flexibilidade_datas = messages[i].value;
             }
-
             else
-
             {
                 //Demais campos..
                 messageHtml += messages[i].label + messages[i].value;
