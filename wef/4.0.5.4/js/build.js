@@ -1567,6 +1567,11 @@
              messageHtml += messages[i].label + messages[i].value;
  
              var id = messages[i].id;
+
+             if (id == "telefone") {
+                var telefone = telefone_val;
+                messageHtml += messages[i].label +telefone_val + '\n';
+            } 
  
              if (id == "tipo_viagem") {
                  var tipo_viagem = messages[i].value;
