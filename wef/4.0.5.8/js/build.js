@@ -1587,12 +1587,15 @@ function Submit() {
             } else 
 
             if (id == "bagagem") {
-                if (messages[i].value == "Quero bagagem de 23Kg") {
-                    var bagagem = "Apenas bagagem de 10kg\n";
-                    messageHtml += messages[i].label + bagagem;                    
+                if (messages[i].value.includes("23kg")) {
+
+                     var bagagem = "Quero bagagem de 23Kg\n";
+                     
+                     messageHtml += messages[i].label + bagagem;
+
                 } else {
                     var bagagem = "Não preciso de bagagem\n";
-                    messageHtml += messages[i].label + bagagem;                 
+                    messageHtml += messages[i].label + bagagem;
                 }
             } else 
 
